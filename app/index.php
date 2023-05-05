@@ -54,16 +54,12 @@ else if(isset($_POST['signOut'])) {
     exit;
 }
 
-
-
 $routes = [
-    [ "name" => "Main panel", "route" => "crud/competitions.php" ],
-    [ "name" => "Tabulation", "route" => "http://localhost/qotu.sn-iriga" ],
-    [ "name" => "Top 7"     , "route" => "results/top7" ],
-    [ "name" => "Guidelines", "route" => "crud/guidelines/event_ranking.php" ],
-    [ "name" => "Assignment", "route" => "crud/assignment" ],
-    [ "name" => "No show"   , "route" => "crud/noshow" ],
-    [ "name" => "Eliminations"   , "route" => "crud/eliminations" ]
+    [ "name" => "Tabulation", "route" => "/qotu.sn-iriga" ],
+    [ "name" => "CRUD", "route" => "crud/competitions.php" ],
+    [ "name" => "User Assignments", "route" => "crud/assignment" ],
+    [ "name" => "Eliminations", "route" => "crud/eliminations" ],
+    [ "name" => "Top 7", "route" => "results/top7" ]
 ];
 ?>
 <!DOCTYPE html>
