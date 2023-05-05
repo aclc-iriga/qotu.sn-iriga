@@ -17,7 +17,7 @@ $config = [
     'host'   => 'localhost',
     'user'   => 'root',
     'pass'   => '',
-    'dbname' => 'bbsv-buhi'
+    'dbname' => 'qotu.sn-iriga'
 ];
 
 $conn = new mysqli($config['host'], $config['user'], $config['pass'], $config['dbname']);
