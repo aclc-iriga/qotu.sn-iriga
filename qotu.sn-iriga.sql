@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 05, 2023 at 06:44 AM
+-- Generation Time: May 05, 2023 at 11:57 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -45,7 +45,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `number`, `name`, `avatar`, `username`, `password`, `called_at`, `pinged_at`, `created_at`, `updated_at`) VALUES
-(1, 1, 'DEVELOPMENT', 'no-avatar.jpg', 'admin', 'admin', NULL, NULL, '2023-02-19 07:36:32', '2023-05-05 03:54:11');
+(1, 1, 'DEVELOPMENT', 'no-avatar.jpg', 'admin', 'admin', NULL, NULL, '2023-02-19 07:36:32', '2023-05-05 09:54:19');
 
 -- --------------------------------------------------------
 
@@ -260,7 +260,9 @@ INSERT INTO `judges` (`id`, `number`, `name`, `avatar`, `username`, `password`, 
 (2, 2, 'Judge 02', 'no-avatar.jpg', 'judge02', 'judge02', NULL, NULL, '2023-04-06 13:58:28', '2023-04-06 13:58:28'),
 (3, 3, 'Judge 03', 'no-avatar.jpg', 'judge03', 'judge03', NULL, NULL, '2023-04-06 13:58:42', '2023-04-06 13:58:42'),
 (4, 4, 'Judge 04', 'no-avatar.jpg', 'judge04', 'judge04', NULL, NULL, '2023-04-06 13:59:26', '2023-04-06 13:59:26'),
-(5, 5, 'Judge 05', 'no-avatar.jpg', 'judge05', 'judge05', NULL, NULL, '2023-04-06 14:00:00', '2023-04-06 14:00:00');
+(5, 5, 'Judge 05', 'no-avatar.jpg', 'judge05', 'judge05', NULL, NULL, '2023-04-06 14:00:00', '2023-04-06 14:00:00'),
+(6, 6, 'Judge 06', 'no-avatar.jpg', 'judge06', 'judge06', NULL, NULL, '2023-05-05 09:35:36', '2023-05-05 09:40:01'),
+(7, 7, 'Judge 07', 'no-avatar.jpg', 'judge07', 'judge07', NULL, NULL, '2023-05-05 09:37:40', '2023-05-05 09:40:06');
 
 -- --------------------------------------------------------
 
@@ -316,7 +318,21 @@ INSERT INTO `judge_event` (`id`, `judge_id`, `event_id`, `is_chairman`, `created
 (32, 5, 4, 0, '2023-05-03 19:00:09', '2023-05-03 19:12:58'),
 (33, 5, 5, 0, '2023-05-03 19:00:11', '2023-05-03 19:13:04'),
 (34, 5, 6, 0, '2023-05-03 19:00:14', '2023-05-03 19:13:07'),
-(35, 5, 7, 0, '2023-05-03 19:00:16', '2023-05-03 19:13:11');
+(35, 5, 7, 0, '2023-05-03 19:00:16', '2023-05-03 19:13:11'),
+(36, 6, 1, 0, '2023-05-05 09:42:03', '2023-05-05 09:42:03'),
+(37, 6, 2, 0, '2023-05-05 09:42:06', '2023-05-05 09:42:06'),
+(38, 6, 3, 0, '2023-05-05 09:42:09', '2023-05-05 09:42:09'),
+(39, 6, 4, 0, '2023-05-05 09:42:11', '2023-05-05 09:42:11'),
+(40, 6, 5, 0, '2023-05-05 09:42:14', '2023-05-05 09:42:14'),
+(41, 6, 6, 0, '2023-05-05 09:42:17', '2023-05-05 09:42:17'),
+(42, 6, 7, 0, '2023-05-05 09:42:20', '2023-05-05 09:42:20'),
+(43, 7, 1, 0, '2023-05-05 09:43:15', '2023-05-05 09:43:15'),
+(44, 7, 2, 0, '2023-05-05 09:43:17', '2023-05-05 09:43:17'),
+(45, 7, 3, 0, '2023-05-05 09:43:19', '2023-05-05 09:43:19'),
+(46, 7, 4, 0, '2023-05-05 09:43:21', '2023-05-05 09:43:21'),
+(47, 7, 5, 0, '2023-05-05 09:43:23', '2023-05-05 09:43:23'),
+(48, 7, 6, 0, '2023-05-05 09:43:25', '2023-05-05 09:43:25'),
+(49, 7, 7, 0, '2023-05-05 09:43:28', '2023-05-05 09:43:28');
 
 -- --------------------------------------------------------
 
@@ -677,13 +693,13 @@ ALTER TABLE `events`
 -- AUTO_INCREMENT for table `judges`
 --
 ALTER TABLE `judges`
-  MODIFY `id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `judge_event`
 --
 ALTER TABLE `judge_event`
-  MODIFY `id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 
 --
 -- AUTO_INCREMENT for table `noshows`
