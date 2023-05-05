@@ -60,7 +60,7 @@ $unique_total_rank_ave_equivs = [];
 $unique_total_percentages = [];
 $unique_adjusted_ranks = [];
 foreach(Team::all() as $team) {
-    $team_key = 'team_'.$team->getId();
+    $team_key = 'team_'.$team->getNumber();
 
     // get $event_1 rank and average
     $average_1        = 0;

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 05, 2023 at 06:02 AM
+-- Generation Time: May 05, 2023 at 06:44 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -405,20 +405,20 @@ CREATE TABLE `teams` (
 --
 
 INSERT INTO `teams` (`id`, `number`, `name`, `location`, `avatar`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Weng Arines', 'Iriga City', '01-weng-arines.jpg', '2023-05-03 05:39:22', '2023-05-03 05:49:43'),
-(2, 2, 'Neigel Corporal', 'Iriga City', '02-neigel-corporal.jpg', '2023-05-03 05:40:08', '2023-05-03 05:49:49'),
-(3, 3, 'Margarette Marica', 'Bato, Cam. Sur', '03-margarette-marica.jpg', '2023-05-03 05:40:51', '2023-05-03 05:49:54'),
-(4, 4, 'Jay M. Tee', 'Bato, Cam. Sur', '04-jay-m-tee.jpg', '2023-05-03 05:41:59', '2023-05-03 05:49:59'),
-(5, 5, 'Bett Azcarraga', 'Nabua, Cam. Sur', '05-bett-azccarraga.jpg', '2023-05-03 05:43:15', '2023-05-03 05:50:03'),
-(6, 6, 'Francis Atutubo', 'Buhi, Cam. Sur', '06-francis-atutubo.jpg', '2023-05-03 05:43:52', '2023-05-03 05:50:16'),
-(7, 7, 'Danica Jacobs', 'Iriga City', '07-danica-jacobs.jpg', '2023-05-03 05:44:24', '2023-05-03 05:50:20'),
-(8, 8, 'Jerry Lou Lumbao', 'Iriga City', '08-jerry-lou-lumbao.jpg', '2023-05-03 05:44:54', '2023-05-03 05:50:24'),
+(1, 13, 'Weng Arines', 'Iriga City', '01-weng-arines.jpg', '2023-05-03 05:39:22', '2023-05-05 04:39:28'),
+(2, 12, 'Neigel Corporal', 'Iriga City', '02-neigel-corporal.jpg', '2023-05-03 05:40:08', '2023-05-05 04:39:43'),
+(3, 5, 'Margarette Marica', 'Bato, Cam. Sur', '03-margarette-marica.jpg', '2023-05-03 05:40:51', '2023-05-05 04:39:51'),
+(4, 3, 'Jay M. Tee', 'Bato, Cam. Sur', '04-jay-m-tee.jpg', '2023-05-03 05:41:59', '2023-05-05 04:40:03'),
+(5, 1, 'Bett Azcarraga', 'Nabua, Cam. Sur', '05-bett-azccarraga.jpg', '2023-05-03 05:43:15', '2023-05-05 04:40:17'),
+(6, 2, 'Francis Atutubo', 'Buhi, Cam. Sur', '06-francis-atutubo.jpg', '2023-05-03 05:43:52', '2023-05-05 04:40:24'),
+(7, 10, 'Danica Jacobs', 'Iriga City', '07-danica-jacobs.jpg', '2023-05-03 05:44:24', '2023-05-05 04:41:57'),
+(8, 11, 'Jerry Lou Lumbao', 'Iriga City', '08-jerry-lou-lumbao.jpg', '2023-05-03 05:44:54', '2023-05-05 04:42:09'),
 (9, 9, 'Jaypee Montañez', 'Iriga City', '09-jaypee-montanez.jpg', '2023-05-03 05:45:54', '2023-05-03 05:50:28'),
-(10, 10, 'Bryan Nava', 'Iriga City', '10-bryan-nava.jpg', '2023-05-03 05:46:15', '2023-05-03 05:50:32'),
-(11, 11, 'Amiela Joana Louisa Salcedo', 'Iriga City', '11-amiela-joana-louisa-roa-salcedo.jpg', '2023-05-03 05:46:56', '2023-05-03 05:50:37'),
-(12, 12, 'Marco Belista', 'Bato, Cam. Sur', '12-marco-belista.jpg', '2023-05-03 05:47:32', '2023-05-03 05:50:41'),
-(13, 13, 'Jhomel Embestro', 'Iriga City', '13-jhomel-embestro.jpg', '2023-05-03 05:48:36', '2023-05-03 05:50:46'),
-(14, 14, 'Chump Buena', 'Bato, Cam. Sur', '14-chump-buena.jpg', '2023-05-03 05:49:07', '2023-05-03 05:50:50');
+(10, 8, 'Bryan Nava', 'Iriga City', '10-bryan-nava.jpg', '2023-05-03 05:46:15', '2023-05-05 04:41:34'),
+(11, 6, 'Amiela Joana Louisa Salcedo', 'Iriga City', '11-amiela-joana-louisa-roa-salcedo.jpg', '2023-05-03 05:46:56', '2023-05-05 04:40:48'),
+(12, 7, 'Marco Belista', 'Bato, Cam. Sur', '12-marco-belista.jpg', '2023-05-03 05:47:32', '2023-05-05 04:41:07'),
+(13, 14, 'Jhomel Embestro', 'Iriga City', '13-jhomel-embestro.jpg', '2023-05-03 05:48:36', '2023-05-05 04:42:31'),
+(14, 4, 'Chump Buena', 'Bato, Cam. Sur', '14-chump-buena.jpg', '2023-05-03 05:49:07', '2023-05-05 04:40:35');
 
 -- --------------------------------------------------------
 
