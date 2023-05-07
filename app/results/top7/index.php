@@ -1,6 +1,10 @@
 <?php
 const LOGIN_PAGE_PATH = '../../crud/';
 require_once '../../crud/auth.php';
+require_once '../../config/database.php';
+require_once '../../models/Admin.php';
+require_once '../../models/Team.php';
+require_once '../../models/Event.php';
 
 // involved events
 const EVENTS = [
@@ -25,11 +29,6 @@ const EVENTS = [
         'percent' => 30
     ]
 ];
-
-require_once '../../config/database.php';
-require_once '../../models/Admin.php';
-require_once '../../models/Team.php';
-require_once '../../models/Event.php';
 
 // initialize titles
 $titles = ['1', '2', '3', '4', '5', '6', '7'];
