@@ -1,6 +1,10 @@
 <?php
 const LOGIN_PAGE_PATH = '../../crud/';
 require_once '../../crud/auth.php';
+require_once '../../config/database.php';
+require_once '../../models/Admin.php';
+require_once '../../models/Team.php';
+require_once '../../models/Event.php';
 
 // involved events
 const EVENTS = [
@@ -9,27 +13,22 @@ const EVENTS = [
         'percent' => 15
     ],
     [
-        'slug'    => 'swimsuit',
-        'percent' => 20
-    ],
-    [
         'slug'    => 'national-costume',
         'percent' => 15
     ],
     [
-        'slug'    => 'long-gown',
+        'slug'    => 'swimsuit',
         'percent' => 20
     ],
     [
         'slug'    => 'preliminary-q-a',
         'percent' => 30
+    ],
+    [
+        'slug'    => 'long-gown',
+        'percent' => 20
     ]
 ];
-
-require_once '../../config/database.php';
-require_once '../../models/Admin.php';
-require_once '../../models/Team.php';
-require_once '../../models/Event.php';
 
 // initialize titles
 $titles = ['1', '2', '3', '4', '5', '6', '7'];
