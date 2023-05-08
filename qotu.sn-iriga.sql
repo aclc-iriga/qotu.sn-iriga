@@ -3,6 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+--
 -- Generation Time: May 07, 2023 at 08:00 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
@@ -519,6 +520,7 @@ INSERT INTO `titles` (`id`, `event_id`, `rank`, `title`, `created_at`, `updated_
 (10, 7, 5, 'Queen of the Eco-Tourism 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
 (11, 7, 6, 'Queen of the Maryela 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
 (12, 7, 7, 'Queen of the Diverse Society of San Nicolas 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20');
+
 
 --
 -- Indexes for dumped tables
