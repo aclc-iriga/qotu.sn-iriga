@@ -3,7 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 07, 2023 at 06:45 AM
+--
+-- Generation Time: May 07, 2023 at 08:00 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -511,7 +512,15 @@ INSERT INTO `titles` (`id`, `event_id`, `rank`, `title`, `created_at`, `updated_
 (2, 3, 1, 'Best in Swimsuit', '2023-05-04 11:37:27', '2023-05-05 03:56:27'),
 (3, 2, 1, 'Best in National Costume', '2023-05-04 11:37:30', '2023-05-05 03:56:30'),
 (4, 5, 1, 'Best in Talent', '2023-05-04 11:37:34', '2023-05-05 03:56:33'),
-(5, 6, 1, 'Best in Long Gown', '2023-05-04 11:37:37', '2023-05-05 03:56:36');
+(5, 6, 1, 'Best in Long Gown', '2023-05-04 11:37:37', '2023-05-05 03:56:36'),
+(6, 7, 1, 'Queen of the Universe 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
+(7, 7, 2, 'Queen of the World 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
+(8, 7, 3, 'Queen of the International 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
+(9, 7, 4, 'Queen of the Earth 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
+(10, 7, 5, 'Queen of the Eco-Tourism 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
+(11, 7, 6, 'Queen of the Maryela 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20'),
+(12, 7, 7, 'Queen of the Diverse Society of San Nicolas 2023', '2023-05-07 05:58:20', '2023-05-07 05:58:20');
+
 
 --
 -- Indexes for dumped tables
@@ -758,7 +767,7 @@ ALTER TABLE `technical_event`
 -- AUTO_INCREMENT for table `titles`
 --
 ALTER TABLE `titles`
-  MODIFY `id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- Constraints for dumped tables

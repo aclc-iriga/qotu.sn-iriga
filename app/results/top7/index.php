@@ -13,20 +13,20 @@ const EVENTS = [
         'percent' => 15
     ],
     [
-        'slug'    => 'swimsuit',
-        'percent' => 20
-    ],
-    [
         'slug'    => 'national-costume',
         'percent' => 15
     ],
     [
-        'slug'    => 'long-gown',
+        'slug'    => 'swimsuit',
         'percent' => 20
     ],
     [
         'slug'    => 'preliminary-q-a',
         'percent' => 30
+    ],
+    [
+        'slug'    => 'long-gown',
+        'percent' => 20
     ]
 ];
 
